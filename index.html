@@ -132,7 +132,7 @@
             <!-- Upload de Foto -->
             <div class="mb-8 flex justify-center">
                 <div class="relative">
-                    <img id="profile-pic" src="https://ui-avatars.com/api/?name=Andre+Pereira&size=200&background=667eea&color=fff&bold=true" 
+                    <img id="profile-pic" src="images/profile.jpg" 
                          alt="André Pereira" class="profile-image">
                     <label for="photo-upload" class="absolute bottom-0 right-0 bg-purple-600 p-3 rounded-full cursor-pointer hover:bg-purple-500 transition-all">
                         <i class="fas fa-camera text-white"></i>
@@ -662,7 +662,7 @@
                 </p>
                 
                 <div class="flex flex-wrap justify-center gap-4">
-                    <a href="#" id="download-cv-btn" class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg hover:shadow-2xl hover:scale-105 transition-all font-semibold text-lg">
+                    <a href="cv-andre-pereira.pdf" download="Andre-Pereira-CV.pdf" id="download-cv-btn" class="inline-flex items-center...">
                         <i class="fas fa-download mr-3"></i>
                         Download CV (PDF)
                     </a>
@@ -770,11 +770,7 @@
         });
 
         // Download CV (placeholder - adiciona o teu PDF)
-        document.getElementById('download-cv-btn').addEventListener('click', function(e) {
-            e.preventDefault();
-            alert('To enable download:\n1. Add your PDF CV to the project folder\n2. Change the href to: href="cv-andre-pereira.pdf"');
-            // When you have the PDF, use this:
-            // window.open('cv-andre-pereira.pdf', '_blank');
+        // window.open('cv-andre-pereira.pdf', '_blank');
         });
 
         // Mobile menu
